@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hunaida Ijaz — Frontend Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,450;0,9..144,600;1,9..144,450&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="tag-field" id="tagField"></div>
+
+<nav>
+  <a href="#hero" class="logo">Hunaida Ijaz</a>
+  <div class="nav-links">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section id="hero">
+  <canvas id="hero-canvas"></canvas>
+  <div class="hero-inner">
+    <div class="eyebrow hero-eyebrow">Frontend Developer · React &amp; AI Enthusiast</div>
+    <h1 class="hero-title">Interfaces built with <em>care</em>, shipped with code.</h1>
+    <p class="hero-sub">Ten products, ten different worlds — fashion, food, sound, architecture, and a healthcare bot for Pakistan. Scroll through the shelf.</p>
+  </div>
+  <div class="hero-scroll"><span>Scroll</span><span class="scroll-line"></span></div>
+</section>
+
+<section id="work">
+  <div class="section-head reveal">
+    <div class="eyebrow">Selected Work</div>
+    <h2>A shelf of ten small worlds</h2>
+    <p>Each project got its own visual language on purpose — the same instinct that drives the code underneath. Hover a card to tilt it toward you.</p>
+  </div>
+
+  <div class="grid" id="project-grid"></div>
+</section>
+
+<section id="about">
+  <div class="reveal">
+    <div class="eyebrow">About</div>
+    <h2 style="margin-top:0.7rem; font-size:clamp(1.9rem,4vw,2.6rem);">A frontend developer who builds with intent.</h2>
+    <p style="margin-top:1.6rem;">I'm a <span class="accent">frontend developer</span> who's spent the last stretch moving between very different briefs — a bakery, a music player, a private library, an architecture studio — and finding the interface each one actually needed, rather than reaching for the same template twice.</p>
+    <p>My stack is <span class="accent">React, Vite, Tailwind, and plain CSS</span> depending on what a project calls for, sharpened with AI-assisted tools like Copilot, Cursor, and Claude — used to move faster, never to skip the thinking.</p>
+    <p>Right now I'm building <span class="accent">HealthVerse AI</span>, a bilingual Urdu/English healthcare companion for the Pakistan market, and taking on freelance frontend work on the side.</p>
+  </div>
+
+  <div class="skill-groups reveal">
+    <div>
+      <div class="skill-group-label">Languages &amp; Frameworks</div>
+      <div class="skill-pills">
+        <span class="pill">HTML5</span><span class="pill">CSS3</span><span class="pill">JavaScript</span>
+        <span class="pill">React</span><span class="pill">Vite</span><span class="pill">Tailwind CSS</span>
+      </div>
+    </div>
+    <div>
+      <div class="skill-group-label">Tools</div>
+      <div class="skill-pills">
+        <span class="pill">Git &amp; GitHub</span><span class="pill">Firebase</span>
+        <span class="pill">GitHub Copilot</span><span class="pill">Cursor AI</span><span class="pill">Claude</span>
+      </div>
+    </div>
+    <div>
+      <div class="skill-group-label">Experience</div>
+      <div class="skill-pills">
+        <span class="pill">DevelopersHub Corp.</span><span class="pill">Atechsole IT</span>
+        <span class="pill">Rhombix Technologies</span><span class="pill">Bano Qabil</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-head reveal">
+    <div class="eyebrow">Get in touch</div>
+    <h2>Let's build something<br/>that fits, not something generic.</h2>
+    <p>Open to remote frontend roles and freelance work.</p>
+  </div>
+  <div class="contact-links reveal">
+    <a href="mailto:hunaidaijaz@gmail.com">hunaidaijaz@gmail.com</a>
+    <a href="https://www.linkedin.com/in/hunaida-ijaz" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://github.com/Hunaida-Ijaz" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</section>
+
+<footer>Designed &amp; built by Hunaida Ijaz — 2026</footer>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
